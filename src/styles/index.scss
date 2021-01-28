@@ -1,0 +1,15 @@
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+
+body {
+  background-color: lighten(#408db0, 30%);
+  * { box-sizing: border-box; }
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+section {
+  margin: 30px;
+}
+
+@import "table/table.scss";
+@import "footer/footer.scss";
